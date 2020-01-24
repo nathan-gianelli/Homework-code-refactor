@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.seo {
+    color: #d9dcd6;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+
+/* These are my reusable font classes */
+
+/* fonts */
+.primary-font {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+.secondary-font {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* colors */
+.primary-color {
+    color: #ffffff;
+}
+.font-md {
+    font-size:20px;
+}
+/* floats */
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+/* Margin and Padding */
+.margin-right-25 {
+    margin-right: 25px;
+}
+.margin-left-25 {
+    margin-left: 25px;
+}
+.padding-20 {
+    padding:20px;
+}
+/* backgrounds */
+.background-primary {
+    background-color: #0072bb;
+}
+.background-secondary {
+    background-color: #2a607c;
+}
+.background-tertiary {
+    background-color: #2589bd;
+}
+.hero-background {
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* End my reusable font classes */
+
+main {
+    clear:both;
+}
+
+.content {
+    width: 75%;
+}
+
+
+.sidebar {
+    padding: 20px;
+    width: 20%;
+    height: 100%;    
+}
+
+.sidebar-module {
+    margin-bottom: 35px;
+}
+.sidebar-module h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.sidebar-module img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.article-module {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+}
+
+.article-image {
+    max-height: 200px;
+}
+
+.article-heading {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+.footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+
+
